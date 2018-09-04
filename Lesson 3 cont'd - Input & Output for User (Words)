@@ -1,0 +1,25 @@
+package Lesson1;
+
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) {
+		
+		Scanner scan2 = new Scanner (System.in);
+		System.out.println("Enter some String");
+		String user_input_String = scan2.nextLine();
+	
+		System.out.println("The entered String is");
+		System.out.println(user_input_String);
+    
+    }
+    
+    }
+    
+    -----------------------------------------------------------------------------------
+    
+Enter some String
+how are you
+The entered String is
+how are you
