@@ -11,6 +11,15 @@ public class MyClass {
 		
 		System.out.println("The entered value is");
 		System.out.println(user_input_number);
+		
+		Scanner scan1 = new Scanner (System.in);
+		System.out.println("Enter some decimal value");
+		double user_input_double = scan.nextDouble();
+	
+		System.out.println("The entered value is");
+		System.out.println(user_input_double);
+		
+		
 	}
 		
 		
@@ -26,3 +35,8 @@ Enter some number
 1000
 The entered value is
 1000
+
+Enter some number
+2
+The entered value is
+2.0
